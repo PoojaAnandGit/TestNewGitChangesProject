@@ -8,4 +8,8 @@
 <INVOKE NAME="Date" SERVICE="pub.date:getCurrentDate" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
+
+<INVOKE NAME="INTEGRATIONS" SERVICE="project.testnewgitchanges.integrations:edge123">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>

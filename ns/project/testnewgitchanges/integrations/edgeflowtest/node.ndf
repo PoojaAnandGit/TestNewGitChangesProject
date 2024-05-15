@@ -63,7 +63,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">flowadmin</value>
-    <value name="lastModifiedDate">1715749605330</value>
+    <value name="lastModifiedDate">1715749950015</value>
     <value name="displayName">edgeflowtest</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -82,10 +82,10 @@
         </record>
         <number name="lineNumber" type="Long">1</number>
         <Boolean name="serviceReferenceResolved">true</Boolean>
-        <value name="nodePathForDebug">0</value>
         <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
+        <value name="nodePathForDebug">0</value>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="name">edge123</value>
@@ -96,6 +96,29 @@
         <value name="nodePathNew">1</value>
         <number name="nodeIndex" type="Long">1</number>
         <number name="lineNumberForDebug" type="Long">2</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">1</value>
+      </record>
+      <record name="/2" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">EdgePkg1</value>
+          <value name="groupName">EdgePkg1;1.0</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">fld_ad9485f644eb4ba9ba63470a488c5f82_exported.projects.flbccc082d1638745112f652.integrations:testNestedFlow</value>
+          <value name="serviceName">fld_ad9485f644eb4ba9ba63470a488c5f82_exported.projects.flbccc082d1638745112f652.integrations:testNestedFlow</value>
+          <value name="displayName">testNestedFlow</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+        <number name="lineNumber" type="Long">3</number>
+        <number name="ui_step_index" type="Long">3</number>
+        <value name="nodePathNew">2</value>
+        <number name="nodeIndex" type="Long">2</number>
+        <number name="lineNumberForDebug" type="Long">3</number>
       </record>
     </record>
   </record>
