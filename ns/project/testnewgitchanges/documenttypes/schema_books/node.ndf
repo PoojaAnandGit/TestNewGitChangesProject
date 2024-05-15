@@ -18,7 +18,7 @@
       <list name="table">
         <record javaclass="com.wm.util.Values">
           <value name="tagType">element</value>
-          <value name="name">books</value>
+          <value name="name">bookswhoseWhereFrom</value>
           <record name="type" javaclass="com.wm.util.Values">
             <value name="contentType">2</value>
             <value name="internalType">reference</value>
