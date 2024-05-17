@@ -16,4 +16,8 @@
 <INVOKE NAME="EdgePkg1" SERVICE="fld_ad9485f644eb4ba9ba63470a488c5f82_exported.projects.flbccc082d1638745112f652.integrations:testNestedFlow">
   <COMMENT></COMMENT>
 </INVOKE>
+
+<INVOKE NAME="Date" SERVICE="pub.date:calculateDateDifference">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
