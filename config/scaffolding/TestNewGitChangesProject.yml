@@ -48,3 +48,13 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.873
+- serviceName: project.testnewgitchanges.integrations:tt
+  packages:
+  - name: TestNewGitChangesProject
+    version: "1.0"
+  - name: EdgePkg1
+    version: "1.0"
+- serviceName: pub.date:calculateDateDifference
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.873
