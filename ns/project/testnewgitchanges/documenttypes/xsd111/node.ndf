@@ -13,8 +13,9 @@
         <number name="createdDate" type="Long">1715930032907</number>
         <value name="lastModifiedBy">flowadmin</value>
         <value name="lastModifiedByUserId">d60f7dd1d732410ba9bfa429665c204d</value>
-        <number name="lastModifiedDate" type="Long">1715930032981</number>
+        <number name="lastModifiedDate" type="Long">1715930066193</number>
       </record>
+      <Boolean name="wMIODocTypeReplica">true</Boolean>
     </record>
     <value name="is_public">false</value>
     <value name="field_type">record</value>
@@ -22,12 +23,18 @@
     <value name="nillable">true</value>
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
-    <value name="schemaDomain">b6aa50f5d78d4abf92951d5369fa7de6</value>
+    <value name="schemaDomain">58fba47c92ac41dc806a35b3e4385a14</value>
     <value name="originURI">books.xsd</value>
     <array name="rec_fields" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
+        <value name="node_nsName">fld_2041028534_stage00.projects.fl07944e315f2cc070e5968b.documenttypes:docTypeRef_bks_BooksForm</value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+          <value name="field_usereditable">true</value>
+        </record>
         <value name="is_public">false</value>
         <value name="field_name">bks:books</value>
         <value name="field_type">recref</value>
@@ -38,7 +45,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">project.testnewgitchanges.documenttypes:docTypeRef_bks_BooksForm</value>
+        <value name="rec_ref">fld_2041028534_stage00.projects.fl07944e315f2cc070e5968b.documenttypes:docTypeRef_bks_BooksForm</value>
       </record>
     </array>
     <value name="modifiable">false</value>
