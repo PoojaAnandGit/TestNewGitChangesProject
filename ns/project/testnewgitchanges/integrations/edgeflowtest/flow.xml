@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="Date" SERVICE="pub.date:getCurrentDate" DISABLED="true">
+<INVOKE NAME="Date" SERVICE="pub.date:getCurrentDate">
   <COMMENT></COMMENT>
 </INVOKE>
 
