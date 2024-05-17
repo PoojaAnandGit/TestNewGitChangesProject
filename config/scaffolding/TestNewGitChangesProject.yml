@@ -8,7 +8,43 @@ packages:
   gitUsername: PoojaAnandGit
   gitBranch: main
 - name: EdgePkg1
+  version: "1.0"
   gitServerName: testInternal
   gitUrl: https://github.webmethods.io/hasv
   gitUsername: poan
   gitBranch: master
+services:
+- serviceName: project.testnewgitchanges.integrations:edgeflowtest
+  packages:
+  - name: TestNewGitChangesProject
+    version: "1.0"
+  - name: EdgePkg1
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.873
+- serviceName: project.testnewgitchanges.integrations:edge123
+  packages:
+  - name: TestNewGitChangesProject
+    version: "1.0"
+  - name: EdgePkg1
+    version: "1.0"
+- serviceName: fld_ad9485f644eb4ba9ba63470a488c5f82_exported.projects.flbccc082d1638745112f652.integrations:testNestedFlow
+  packages:
+  - name: EdgePkg1
+    version: "1.0"
+- serviceName: pub.date:currentNanoTime
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.873
+- serviceName: pub.wmic.flow:logCustomMessage
+  packages:
+  - name: TestNewGitChangesProject
+    version: "1.0"
+  - name: EdgePkg1
+    version: "1.0"
+- serviceName: pub.math:randomDouble
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.873
